@@ -23,36 +23,10 @@ angular.module('MeetlyApp', [
       templateUrl: 'app/views/map-view.html',
       controller: 'mapController'
     })
-    .state('yelp-view' {
+    .state('yelp-view', {
       url: '/yelp-view',
       templateUrl: 'app/views/yelp-view.html',
       controller: 'yelpController'
     })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-});
+  });
